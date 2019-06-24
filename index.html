@@ -96,8 +96,40 @@
 			</div>
 		</div>
 
-		<div class="carousel slide" id="myCarouse"><!--Carousel Div-->
+		<div class="carousel slide" id="myCarousel"><!--Carousel Div-->
+			<!--Indicators of carousel-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!--Wrapper for slides-->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Bootstrap 3</h4>
+						<p>Learn to build your first responsive website with Bootstrap 3.</p>
+					</div>
+				</div>
 
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Learn to code a website in 4-hours</h4>
+						<p>Learn how to develop your website from your photoshop design within 4 hours</p>
+					</div>
+				</div>
+				
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>Web Hosting 101</h4>
+						<p>Learn all the tricks in getting perfect domain and hosting package. Get your website live on the web.</p>
+					</div>
+				</div>
+			</div><!--carousel inner-->
+
+			<!--Carousel controls-->
+			<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+			<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
 		</div>
 
 		<div class="row" id="bigCallout"><!--Big Callout Div-->
