@@ -82,6 +82,11 @@ body{
     margin: 20px 0;
 }
 
+.alert{
+    margin-top: 20px;
+    display: none;
+}
+
 
 /* --------------------------------------
    Media Queries
