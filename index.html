@@ -4,7 +4,7 @@
 	<head>
 		
 		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
+		<title>Bootstrap 3 Practice</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
@@ -255,8 +255,26 @@
 
 											<p><small class="text-muted">PS. This form is an example to display forms in Modal View.</small></p>
 
-											<form>
-
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputName">Name</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputName" type="text" placeholder="Name">
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputEmail" type="text" placeholder="Email">
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputComment">Add Comment</label>
+													<div class="col-lg-10">
+														<textarea class="form-control" name="" placeholder="Add your comment" id="inputComment" cols="30" rows="3"></textarea>
+														<button class="btn btn-success pull-right">Send</button>
+													</div>
+												</div>
 											</form>
 										</div><!--End Modal Body-->
 										<div class="modal-footer">
